@@ -15,6 +15,7 @@ function App() {
           } catch (error) {
             console.error("Error fetching data:", error);
             setOutput("Error fetching data");
+            console.log(error);
           }
         }}
       >
