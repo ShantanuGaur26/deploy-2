@@ -4,7 +4,6 @@ import "./App.css";
 
 function App() {
   const [output, setOutput] = useState("");
-
   return (
     <>
       <button
