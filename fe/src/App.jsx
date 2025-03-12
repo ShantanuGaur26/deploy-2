@@ -9,7 +9,7 @@ function App() {
       <button
         onClick={async () => {
           try {
-            const response = await axios.get("https://deploy-be-dusky.vercel.app/");
+            const response = await axios.get("https://deploy-be-dusky.vercel.app");
             setOutput(response.data); // Assuming the response contains a string or valid data
           } catch (error) {
             console.error("Error fetching data:", error);
