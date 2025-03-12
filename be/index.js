@@ -10,7 +10,7 @@ app.use(cors({
 app.use(express.json());
 
 app.get("/",(req,res)=>{
-    res.send("hello");
+    res.json({msg : "hello"});
 })
 
 app.listen(3000);
