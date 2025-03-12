@@ -3,7 +3,7 @@ import axios from "axios";
 import "./App.css";
 
 function App() {
-  const [output, setOutput] = useState("");
+  const [output, setOutput] = useState({});
   return (
     <>
       <button
@@ -20,7 +20,7 @@ function App() {
       >
         Click
       </button>
-      <h1>{output}</h1>
+      <h1>{toString(output)}</h1>
     </>
   );
 }
